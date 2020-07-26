@@ -20,13 +20,7 @@ class Dustbin{
     }
     display(){
        imageMode(CENTER)
-        image(this.image, 1000, 380, this.width, this.height);
-
-        imageMode(CENTER)
-        image(this.image, 910, 290, this.height, this.width);
-
-        imageMode(CENTER)
-        image(this.image, 1090, 290, this.height, this.width);
+        image(this.image,this.bottomBody.position.x,this.bottomBody.position.y, this.width, this.width);
 
 
 
