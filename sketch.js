@@ -24,7 +24,7 @@ function setup(){
 function keyPressed (){
     if (keyCode === UP_ARROW){
         
-        Matter.Body.applyForce(paper.body,paper.body.position,{x:550,y:-1000});
+        Matter.Body.applyForce(paper.body,paper.body.position,{x:1000,y:-1100});
 
     }
 }
